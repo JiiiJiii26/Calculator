@@ -1,0 +1,75 @@
+# Build directories
+build-*/
+*.pro.user
+*.autosave
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Qt Creator files
+*.pro.user*
+*.pro.user.*
+.cproject
+.project
+.settings/
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Debug files
+*.debug
+*.pdb
+
+# Release files
+*.release
+
+# Translation files
+*.qm
+*.ts~
+
+# MacOS
+.DS_Store
+*.app/
+
+# Windows
+Thumbs.db
+*.lnk
+
+# QRC resources
+qrc_*.cpp
+
+# MOC files
+moc_*.cpp
+moc_*.h
+
+# UIC files
+ui_*.h
+
+# Object files
+*.obj
+*.idb
+*.pch
+*.exp
+*.lib
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Qt Metatype files
+*.json
+
+# Qt moc includes
+moc_predefs.h
+
+# Executable
+Calculator

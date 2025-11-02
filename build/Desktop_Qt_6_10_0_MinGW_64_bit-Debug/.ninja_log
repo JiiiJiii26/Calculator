@@ -1,0 +1,78 @@
+# ninja log v6
+24	96	7837864202036322	D:/For school shts/Calc/Calculator/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	97fd3ab3e281506c
+911	3405	7837846927983356	CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.obj	cae5a284f4723a71
+103	235	7837864202824915	D:/For school shts/Calc/Calculator/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	2c9974574a42328d
+103	235	7837864202824915	Calculator_autogen/timestamp	2c9974574a42328d
+103	235	7837864202824915	Calculator_autogen/mocs_compilation.cpp	2c9974574a42328d
+103	235	7837864202824915	D:/For school shts/Calc/Calculator/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/Calculator_autogen/timestamp	2c9974574a42328d
+239	2955	7837861932174612	CMakeFiles/Calculator.dir/mainwindow.cpp.obj	fb213f0246420321
+914	3417	7837846928018386	CMakeFiles/Calculator.dir/main.cpp.obj	9b03e8eb228f9702
+2955	3163	7837861959334101	Calculator.exe	883972fe9a79ed70
+106	955	7837228589911267	build.ninja	edb94656dd087af6
+25	97	7837864675380321	D:/For school shts/Calc/Calculator/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	97fd3ab3e281506c
+103	240	7837864676161338	Calculator_autogen/timestamp	2c9974574a42328d
+103	240	7837864676161338	Calculator_autogen/mocs_compilation.cpp	2c9974574a42328d
+103	240	7837864676161338	D:/For school shts/Calc/Calculator/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/Calculator_autogen/timestamp	2c9974574a42328d
+103	240	7837864676161338	D:/For school shts/Calc/Calculator/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	2c9974574a42328d
+240	2767	7837864677529949	CMakeFiles/Calculator.dir/mainwindow.cpp.obj	fb213f0246420321
+2767	2964	7837864702801252	Calculator.exe	883972fe9a79ed70
+25	98	7837865247902961	D:/For school shts/Calc/Calculator/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	97fd3ab3e281506c
+104	239	7837865248689652	Calculator_autogen/timestamp	2c9974574a42328d
+104	239	7837865248689652	Calculator_autogen/mocs_compilation.cpp	2c9974574a42328d
+104	239	7837865248689652	D:/For school shts/Calc/Calculator/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/Calculator_autogen/timestamp	2c9974574a42328d
+104	239	7837865248689652	D:/For school shts/Calc/Calculator/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	2c9974574a42328d
+239	2855	7837865250034429	CMakeFiles/Calculator.dir/mainwindow.cpp.obj	fb213f0246420321
+2855	3062	7837865276197170	Calculator.exe	883972fe9a79ed70
+25	97	7837872007925755	D:/For school shts/Calc/Calculator/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	97fd3ab3e281506c
+103	239	7837872008714785	Calculator_autogen/timestamp	2c9974574a42328d
+103	239	7837872008714785	Calculator_autogen/mocs_compilation.cpp	2c9974574a42328d
+103	239	7837872008714785	D:/For school shts/Calc/Calculator/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/Calculator_autogen/timestamp	2c9974574a42328d
+103	239	7837872008714785	D:/For school shts/Calc/Calculator/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	2c9974574a42328d
+240	3052	7837872010079387	CMakeFiles/Calculator.dir/mainwindow.cpp.obj	fb213f0246420321
+3052	3269	7837872038200917	Calculator.exe	883972fe9a79ed70
+26	102	7837873246135130	D:/For school shts/Calc/Calculator/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	97fd3ab3e281506c
+109	271	7837873246952807	Calculator_autogen/timestamp	2c9974574a42328d
+109	271	7837873246952807	Calculator_autogen/mocs_compilation.cpp	2c9974574a42328d
+109	271	7837873246952807	D:/For school shts/Calc/Calculator/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/Calculator_autogen/timestamp	2c9974574a42328d
+109	271	7837873246952807	D:/For school shts/Calc/Calculator/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	2c9974574a42328d
+272	3194	7837873248590578	CMakeFiles/Calculator.dir/mainwindow.cpp.obj	fb213f0246420321
+3195	3412	7837873277815369	Calculator.exe	883972fe9a79ed70
+24	98	7837876844318055	D:/For school shts/Calc/Calculator/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	97fd3ab3e281506c
+104	244	7837876845118993	Calculator_autogen/timestamp	2c9974574a42328d
+104	244	7837876845118993	Calculator_autogen/mocs_compilation.cpp	2c9974574a42328d
+104	244	7837876845118993	D:/For school shts/Calc/Calculator/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/Calculator_autogen/timestamp	2c9974574a42328d
+104	244	7837876845118993	D:/For school shts/Calc/Calculator/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	2c9974574a42328d
+245	3140	7837876846529944	CMakeFiles/Calculator.dir/mainwindow.cpp.obj	fb213f0246420321
+3140	3364	7837876875484206	Calculator.exe	883972fe9a79ed70
+48	163	7837927089286941	D:/For school shts/Calc/Calculator/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	97fd3ab3e281506c
+170	1084	7837927098813520	Calculator_autogen/timestamp	2c9974574a42328d
+170	1084	7837927098813520	Calculator_autogen/mocs_compilation.cpp	2c9974574a42328d
+170	1084	7837927098813520	D:/For school shts/Calc/Calculator/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/Calculator_autogen/timestamp	2c9974574a42328d
+170	1084	7837927098813520	D:/For school shts/Calc/Calculator/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	2c9974574a42328d
+1085	4156	7837927099665892	CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.obj	cae5a284f4723a71
+1119	4164	7837927100016718	CMakeFiles/Calculator.dir/main.cpp.obj	9b03e8eb228f9702
+1126	4332	7837927100076804	CMakeFiles/Calculator.dir/mainwindow.cpp.obj	fb213f0246420321
+4332	5197	7837927132134768	Calculator.exe	883972fe9a79ed70
+24	96	7837928237797162	D:/For school shts/Calc/Calculator/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	97fd3ab3e281506c
+103	265	7837928238585119	Calculator_autogen/timestamp	2c9974574a42328d
+103	265	7837928238585119	Calculator_autogen/mocs_compilation.cpp	2c9974574a42328d
+103	265	7837928238585119	D:/For school shts/Calc/Calculator/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/Calculator_autogen/timestamp	2c9974574a42328d
+103	265	7837928238585119	D:/For school shts/Calc/Calculator/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	2c9974574a42328d
+266	2809	7837928240208914	CMakeFiles/Calculator.dir/mainwindow.cpp.obj	fb213f0246420321
+2809	3036	7837928265652112	Calculator.exe	883972fe9a79ed70
+23	95	7837928474831567	D:/For school shts/Calc/Calculator/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	97fd3ab3e281506c
+14	87	7837930175986602	D:/For school shts/Calc/Calculator/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	97fd3ab3e281506c
+94	248	7837930176786051	Calculator_autogen/timestamp	2c9974574a42328d
+94	248	7837930176786051	Calculator_autogen/mocs_compilation.cpp	2c9974574a42328d
+94	248	7837930176786051	D:/For school shts/Calc/Calculator/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/Calculator_autogen/timestamp	2c9974574a42328d
+94	248	7837930176786051	D:/For school shts/Calc/Calculator/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	2c9974574a42328d
+249	2817	7837930178338593	CMakeFiles/Calculator.dir/mainwindow.cpp.obj	fb213f0246420321
+2817	3047	7837930204013844	Calculator.exe	883972fe9a79ed70
+24	97	7837940278233931	D:/For school shts/Calc/Calculator/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	97fd3ab3e281506c
+104	274	7837940279036491	Calculator_autogen/timestamp	2c9974574a42328d
+104	274	7837940279036491	Calculator_autogen/mocs_compilation.cpp	2c9974574a42328d
+104	274	7837940279036491	D:/For school shts/Calc/Calculator/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/Calculator_autogen/timestamp	2c9974574a42328d
+104	274	7837940279036491	D:/For school shts/Calc/Calculator/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	2c9974574a42328d
+275	3007	7837940280748899	CMakeFiles/Calculator.dir/mainwindow.cpp.obj	fb213f0246420321
+3008	3242	7837940308074453	Calculator.exe	883972fe9a79ed70
+24	96	7837940385442014	D:/For school shts/Calc/Calculator/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	97fd3ab3e281506c
