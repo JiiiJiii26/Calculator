@@ -2,13 +2,15 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <QStack>
 
-QT_BEGIN_NAMESPACE
-namespace Ui {
-class MainWindow;
-}
-QT_END_NAMESPACE
+// Linked List Node for undo/redo history
+struct HistoryNode {
+    QString data;
+    HistoryNode* next;
+    HistoryNode* prev;
+    
+    HistoryNode(const QString& value) : data(value), next(nullptr), prev(nullptr) {}
+};
 
 class MainWindow : public QMainWindow
 {
@@ -20,9 +22,19 @@ public:
 
 private:
     Ui::MainWindow *ui;
-    QStack<QString> undoStack;
-    QStack<QString> redoStack;
+    
+    // Linked List for undo/redo instead of QStack
+    HistoryNode* undoHead;
+    HistoryNode* undoCurrent;
+    HistoryNode* redoHead;
+    
+    double firstNum;
+    bool userTypeSecNum;
+
     void saveState();
+    void addToUndoList(const QString& state);
+    void clearRedoList();
+    void clearUndoList();
 
 private slots:
     void press_num();
