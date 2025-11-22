@@ -31,7 +31,7 @@ MainWindow::MainWindow(QWidget *parent)
     connect(ui->mult,SIGNAL(released()),this,SLOT(binary_operation_pressed()));
     connect(ui->divide,SIGNAL(released()),this,SLOT(binary_operation_pressed()));
 
-    // Connect undo and redo buttons
+    
     connect(ui->undo, SIGNAL(released()), this, SLOT(on_undo_released()));
     connect(ui->redo, SIGNAL(released()), this, SLOT(on_redo_released()));
 
@@ -40,13 +40,13 @@ MainWindow::MainWindow(QWidget *parent)
     ui->mult->setCheckable(true);
     ui->divide->setCheckable(true);
 
-    // Save initial state to linked list
+    
     saveState();
 }
 
 MainWindow::~MainWindow()
 {
-    // Clean up linked lists
+    
     clearUndoList();
     clearRedoList();
     delete ui;
@@ -79,10 +79,10 @@ void MainWindow::addToUndoList(const QString& state)
     HistoryNode* newNode = new HistoryNode(state);
     
     if (undoHead == nullptr) {
-        // First node in the list
+       
         undoHead = undoCurrent = newNode;
     } else {
-        // Add to the end of the list (most recent)
+       
         HistoryNode* current = undoHead;
         while (current->next != nullptr) {
             current = current->next;
@@ -97,19 +97,19 @@ void MainWindow::saveState()
 {
     QString currentState = ui->label->text();
     
-    // Add to undo linked list
+ 
     addToUndoList(currentState);
     
-    // Clear redo list when new operation is performed
+   
     clearRedoList();
     
-    // Update button states
+   
     ui->undo->setEnabled(undoHead != nullptr && undoCurrent != undoHead);
     ui->redo->setEnabled(redoHead != nullptr);
 }
 
 void MainWindow::press_num(){
-    // Save state before number input
+    
     if (!userTypeSecNum) {
         saveState();
     }
@@ -220,11 +220,11 @@ void MainWindow::binary_operation_pressed(){
     button->setChecked(true);
 }
 
-// Undo functionality using linked list
+
 void MainWindow::on_undo_released()
 {
     if (undoCurrent != nullptr && undoCurrent->prev != nullptr) {
-        // Move current state to redo list
+        
         HistoryNode* redoNode = new HistoryNode(undoCurrent->data);
         if (redoHead == nullptr) {
             redoHead = redoNode;
@@ -234,27 +234,27 @@ void MainWindow::on_undo_released()
             redoHead = redoNode;
         }
         
-        // Move to previous state in undo list
+        
         undoCurrent = undoCurrent->prev;
         ui->label->setText(undoCurrent->data);
         
-        // Update button states
+       
         ui->undo->setEnabled(undoCurrent->prev != nullptr);
         ui->redo->setEnabled(true);
     }
 }
 
-// Redo functionality using linked list
+
 void MainWindow::on_redo_released()
 {
     if (redoHead != nullptr) {
-        // Get the state from redo list
+       
         QString state = redoHead->data;
         
-        // Add to undo list
+       
         addToUndoList(state);
         
-        // Remove from redo list
+       
         HistoryNode* temp = redoHead;
         redoHead = redoHead->next;
         if (redoHead != nullptr) {
@@ -262,10 +262,10 @@ void MainWindow::on_redo_released()
         }
         delete temp;
         
-        // Update display
+      
         ui->label->setText(state);
         
-        // Update button states
+       
         ui->undo->setEnabled(true);
         ui->redo->setEnabled(redoHead != nullptr);
     }

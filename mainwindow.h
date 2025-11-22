@@ -3,7 +3,7 @@
 
 #include <QMainWindow>
 
-// Linked List Node for undo/redo history
+
 struct HistoryNode {
     QString data;
     HistoryNode* next;
@@ -23,7 +23,6 @@ public:
 private:
     Ui::MainWindow *ui;
     
-    // Linked List for undo/redo instead of QStack
     HistoryNode* undoHead;
     HistoryNode* undoCurrent;
     HistoryNode* redoHead;
